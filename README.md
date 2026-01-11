@@ -9,8 +9,8 @@ Une application de Data Science interactive permettant d'estimer le prix de vent
 🔗 **[Accéder à l'application en ligne](https://immo-estimator.streamlit.app/)**
 
 ### 📋 Contexte et Objectifs
-Ce projet a pour bur de prédire la **valeur vénale** d'un bien immobilier en se basant sur ses caractéristiques intrinsèques (surface, pièces, terrain) et sa localisation géographique.
-Le modèle a été entrainé sur des données réelles de transactions immobilières dans le département 35. Il intègre un feature engineering spatial calculant notamment la distance aux pôles économiques majeurs (Rennes et Saint-Malo).
+Ce projet a pour but de prédire la **valeur vénale** d'un bien immobilier en se basant sur ses caractéristiques intrinsèques (surface, pièces, terrain) et sa localisation géographique.
+Le modèle a été entraîné sur des données réelles de transactions immobilières dans le département 35. Il intègre un feature engineering spatial calculant notamment la distance aux pôles économiques majeurs (Rennes et Saint-Malo).
 * **Source du Dataset (Kaggle) :** [Housing Prices 35 FR](https://www.kaggle.com/datasets/cheneblanc/housing-prices-35-fr)
 
 > **Pourquoi ce département ?**
@@ -19,7 +19,7 @@ Le modèle a été entrainé sur des données réelles de transactions immobili�
 ### 🧠 Performance du modèle
 Le moteur de prédiction repose sur un algorithme de **Random Forest Regressor** optimisé.
 
-* **Score R$^2$ :** ~0.75
+* **Score R² :** ~0.75
 * **Précision moyenne (MAPE) :** ~26% (sur l'ensemble des biens, ruraux inclus)
 * **Erreur Absolue Moyenne (MAE) :** ~36 000€
 
@@ -32,14 +32,14 @@ Le moteur de prédiction repose sur un algorithme de **Random Forest Regressor**
 
 ### 🚀 Installation Locale
 Si vous souhaitez faire tourner le projet sur votre propre machine :
-1. **Cloner le dépot :**
+1. **Cloner le dépôt :**
    ```bash
    git clone "https://github.com/matteoCunha/Immo-35-estimator-Machine-Learning.git"
    cd Immo-35-estimator-Machine-Learning
    ```
 2. **Installer les dépendances :**
    ```bash
-   pip install -r requirement.txt
+   pip install -r requirements.txt
    ```
 3. **Lancer l'application :**
    ```bash
