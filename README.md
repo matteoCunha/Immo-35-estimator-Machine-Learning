@@ -7,6 +7,7 @@
 Une application de Data Science interactive permettant d'estimer le prix de vente de maisons et d'appartements en Ille-et-Vilaine grâce au Machine Learning.
 
 🔗 **[Accéder à l'application en ligne](https://immo-estimator.streamlit.app/)**
+L'application peut nécessiter jusqu'à une minute pour être pleinement opérationnelle. Ce délai correspond au chargement du modèle et des différents composants techniques.
 
 ### 📋 Contexte et Objectifs
 Ce projet a pour but de prédire la **valeur vénale** d'un bien immobilier en se basant sur ses caractéristiques intrinsèques (surface, pièces, terrain) et sa localisation géographique.
